@@ -132,7 +132,7 @@ class Pelicula(Tickete, Asiento):
                 print("Asiento no disponible.")
             
     
-    def vaciar_acientos(self) -> None:
+    def vaciar_asientos(self) -> None:
         """
         Permite que todos los puestos estén disponibles.
         """

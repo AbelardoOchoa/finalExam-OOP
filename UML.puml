@@ -1,0 +1,33 @@
+@startuml myuml
+!theme crt-green
+class Usuario{
+nombre_usuario: str
+contraseña: str
+usuarios: []
+password: []
+preferencia: int
+sin_usuarios: True
+ingresar()
+registrar()
+}
+class Asiento{
+asientos: list
+}
+class Tickete{
+regular: int
+vip: int
+cantidad: int
+disponibles: int
+tipo: int
+}
+Asiento --|> Pelicula
+Tickete --|> Pelicula
+Usuario -- Pelicula
+class Pelicula{
+titulo: str
+hora: list
+vender_ticket()
+escoger_asiento()
+vaciar_asientos()
+}
+@enduml

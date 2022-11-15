@@ -8,9 +8,9 @@ pelicula2 = Pelicula("Buscando a Nemo", ["2:30 PM", "10:10 AM",
                     "5:00 PM"], 20, 15)
 pelicula3 = Pelicula("Avatar", ["2:30 PM", "10:10 AM", 
                     "5:00 PM"], 10, 20)
-pelicula1.vaciar_acientos()
-pelicula2.vaciar_acientos()
-pelicula3.vaciar_acientos()
+pelicula1.vaciar_asientos()
+pelicula2.vaciar_asientos()
+pelicula3.vaciar_asientos()
 
 def menu_peli():
     """
